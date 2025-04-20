@@ -25,6 +25,10 @@
                     <input type="date" name="deadline" class="form-control" id="floatingDate" placeholder="Deadline" disabled>
                     <label for="floatingDate">Deadline</label>
                 </div>
+                <div class="form-floating col-11 align-items-center mx-auto my-3 fw-bold">
+                    <input type="text" name="status" class="form-control text-light bg-secondary" id="floatingPriority" placeholder="status" disabled>
+                    <label for="floatingPriority">--</label>
+                </div>
             </form>
 
         </div>

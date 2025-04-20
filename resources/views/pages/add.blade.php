@@ -7,7 +7,15 @@
     <div class="container col-10">
         <div class="card">
             <h2 class="text-center fw-bold mt-2">ADD NEW TASK</h2>
-            
+            @if ($errors->any())
+                <div class="alert alert-danger col-11 mx-auto mt-3">
+                    <ul class="mb-0">
+                     @foreach ($errors->all() as $error)
+                        <li>{{ $error }}</li>
+                     @endforeach
+                    </ul>
+                </div>
+            @endif
             <form action="" method="POST">
                 @csrf
                 
