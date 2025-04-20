@@ -22,7 +22,6 @@
           </tr>
         </thead>
         <tbody>
-          @foreach()
           <tr>
             <td>1</td>
             <td>Mandi</td>
@@ -34,7 +33,6 @@
             </form>
               <a href="{{route('view')}}"><button class="btn btn-sm bg-teal bi bi-eye"></button></a></td>
           </tr>
-          @endforeach
         </tbody>
       </table>
     </div>

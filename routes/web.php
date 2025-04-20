@@ -17,6 +17,4 @@ Route::get('/', function () {return view('pages.home');})->name('home');
 Route::get('/cleared', function () {return view('pages.cleared');})->name('cleared');
 Route::get('/add', function () {return view('pages.add');})->name('add');
 Route::get('/edit', function () {return view('pages.edit');})->name('edit');
-Route::get('/view', function () {return view('pages.view');})->name('view');
-// Route::get('/', [TaskController::class, 'index'])->name('home');
-// Route::get('/edit/{id}', [TaskController::class, 'edit'])->name('edit');
+Route::get('/view', function () {return view('pages.view');})->name('view');    
