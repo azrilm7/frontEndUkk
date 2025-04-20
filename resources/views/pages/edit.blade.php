@@ -12,25 +12,25 @@
                 @csrf
                 @method('PUT')
                 <div class="form-floating col-11 align-items-center mx-auto my-3 fw-bold">
-                    <input type="text" name="task" class="form-control" id="floatingTask" placeholder="Task">
+                    <input type="text" name="task" class="form-control" id="floatingTask" placeholder="Task" value="">
                     <label for="floatingTask">Task</label>
                 </div>
                 <div class="form-floating col-11 align-items-center mx-auto my-3 fw-bold">
-                    <textarea name="description" class="form-control" placeholder="Description" id="floatingDesc" style="height: 100px;"></textarea>
+                    <textarea name="description" class="form-control" placeholder="Description" id="floatingDesc" style="height: 100px;">//value</textarea>
                     <label for="floatingDesc">Description</label>
                 </div>
                 <div class="form-floating col-11 align-items-center mx-auto my-3 fw-bold">
                     <select name="priority" class="form-select" id="floatingSelect" aria-label="Select Priority">
                         <option selected disabled>Choose Priority</option>
-                        <option value="1">High</option>
-                        <option value="2">Medium</option>
-                        <option value="3">Low</option>
+                        <option value="High">High</option>
+                        <option value="Medium">Medium</option>
+                        <option value="Low">Low</option>
                     </select>
                     <label for="floatingSelect">Priority</label>
                 </div>
 
                 <div class="form-floating col-11 align-items-center mx-auto my-3 fw-bold">
-                    <input type="date" name="deadline" class="form-control" id="floatingDate" placeholder="Deadline">
+                    <input type="date" name="deadline" class="form-control" id="floatingDate" placeholder="Deadline" value="">
                     <label for="floatingDate">Deadline</label>
                 </div>
 
